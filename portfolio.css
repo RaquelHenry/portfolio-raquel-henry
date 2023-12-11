@@ -85,6 +85,8 @@ nav {
 }
 
 
+/*Project Section*/
+
 .details-container {
     display: flex;
     justify-content: center;
@@ -105,6 +107,27 @@ nav {
     gap: 2.5rem;
     justify-content: center;
 
+}
+
+/*Technologies Section*/
+
+.tech-icons {
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+}
+
+.front,
+.back,
+.tools {
+    margin-top: 3rem;
+}
+
+.skills {
+    list-style: none;
+    padding: 1rem;
 }
 
 /*Contact Me*/
