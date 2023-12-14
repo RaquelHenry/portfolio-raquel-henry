@@ -12,10 +12,12 @@ div {
 
 body {
     font-family: 'Lato', sans-serif;
+    background-color: rgb(242, 233, 228);
 }
 
 html {
     scroll-behavior: smooth;
+
 }
 
 .profile-pic {
@@ -25,6 +27,21 @@ html {
     margin: 1rem;
 }
 
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
 
 
 /*DESKTOP NAV*/
@@ -40,13 +57,13 @@ nav {
 }
 
 .nav-link {
-    color: green;
+    color: rgb(53, 53, 53);
     gap: 2rem;
     font-size: 1.5rem;
 }
 
 .nav-link:hover {
-    color: grey;
+    color: rgb(154, 140, 152);
     text-decoration: underline;
 }
 
@@ -75,8 +92,17 @@ nav {
 .btn-color-2,
 .btn-color-3,
 .btn-color-4 {
-    background: rgb(53, 53, 53);
-    border: rgb(0, 0, 0) solid;
+    background: rgb(34, 34, 59);
+    border: rgb(74, 78, 105) solid;
+    color: aliceblue;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover,
+.btn-color-3:hover,
+.btn-color-4:hover {
+    background-color: rgb(74, 78, 105);
+    border-color: rgb(34, 34, 59);
     color: aliceblue;
 }
 
@@ -94,7 +120,7 @@ nav {
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
-    background: white;
+    background: rgb(154, 140, 152);
     padding: 1.5rem;
 
 }
@@ -136,4 +162,5 @@ form {
     flex-direction: column;
     gap: 1.2rem;
     max-width: 500px;
+    background-color: rgb(154, 140, 152);
 }
