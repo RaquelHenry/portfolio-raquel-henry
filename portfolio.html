@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="mediaqueries.css">
 
     <!-- Font Awesome CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
     <title>Portfolio - Raquel Henry</title>
 </head>
 
@@ -65,140 +65,169 @@
                     <h2> I'm Raquel, software developer with a background in business management and supply chain.
                         Below,
                         you
-                        will see my projects and skills. Feel free to contact me with questions on how I can help you or
-                        your
-                        business!</h2>
+                        will see my projects and skills. Feel free to reach out if you are interested in my diverse
+                        background.
+                    </h2>
                     <div class="btn btn-color-1" onclick="location.href='./#contact'">let's connect!</div>
+                </div>
+            </div>
+        </div>
+        <hr class="solid">
+    </section>
+
+
+
+    <!--Second Section-->
+    <section class="about" id="about">
+        <div class="container mt-4">
+            <div class="row">
+                <h1>About Me </h1>
+            </div>
+            <div class="row align-items-center mt-4">
+                <div class="col">
+                    <h2>Fullstack Developer with a passion to create solutions and craft clean and efficient code. I am
+                        always seeking opportunities to developing new skills and honing my existing ones. I am a firm
+                        believer in the power of teamwork and collaboration. Inclusion is a part of who I am.</h2>
+                    <div class="row justify-content-center">
+                        <div class="btn btn-color-2" onclick="window.open('./documents/resume.pdf')">Resume</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="solid">
+    </section>
+
+
+
+    <!--Third Section-->
+    <section class="projects" id="projects">
+        <div class="container mt-4 mb-5">
+            <h1 class="project-title">Projects</h1>
+            <div class=" details-container color-container">
+                <div class="article container">
+                    <img src="images/IMG_0865.PNG" alt="nucampsite" class="project-img" />
+                </div>
+                <h2 class="project-container">Nucamp Rental Website</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-3 project btn"
+                        onclick="location.href='https://github.com/RaquelHenry/nucampsitereact' ">GitHub</button>
+
+                </div>
+            </div>
+            <h1 class="project-title">Projects</h1>
+            <div class=" details-container color-container">
+                <div class="article container">
+                    <img src="images/IMG_0865.PNG" alt="nucampsite" class="project-img" />
+                </div>
+                <h2 class="project-container">Nucamp Rental Website</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-3 project btn"
+                        onclick="location.href='https://github.com/RaquelHenry/nucampsitereact' ">GitHub</button>
+
                 </div>
             </div>
         </div>
     </section>
 
-    <br>
-    <!--Second Section-->
-    <div class="container mt-4" id="about">
-        <div class="row">
-            <h1>About Me </h1>
-        </div>
-        <div class="row align-items-center mt-4">
-            <div class="col">
-                <h2>Fullstack Developer with a passion to create solutions and craft clean and efficient code. I am
-                    always seeking opportunities to developing new skills and honing my existing ones. I am a firm
-                    believer in the power of teamwork and collaboration.</h2>
-                <div class="row justify-content-center">
-                    <div class="btn btn-color-2" onclick="window.open('./documents/resume.pdf')">Resume</div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <br>
-
-    <!--Third Section-->
-    <div class="container mt-4 mb-5" id="projects">
-        <h1 class="project-title">Projects</h1>
-        <div class=" details-container color-container">
-            <div class="article container">
-                <img src="images/IMG_0865.PNG" alt="nucampsite" class="project-img" />
-            </div>
-            <h2 class="project-container">Nucamp Rental Website</h2>
-            <div class="btn-container">
-                <button class="btn btn-color-3 project btn"
-                    onclick="location.href='https://github.com/RaquelHenry/nucampsitereact' ">GitHub</button>
-
-            </div>
-        </div>
-    </div>
-
-    <br>
+    <hr class="solid">
 
     <!--Fourth Section-->
-    <div class="container mt-4" id="tech">
-        <div class="row">
-            <h1>Technologies</h1>
-        </div>
-        <div class="row align-items-center mt-4">
-            <div class="col">
-                <h2> I have experience working with a wide range of technologies and languages. I am always looking to
-                    learn new technologies and improve my skill.</h2>
-                <div class="container">
-                    <ol class="skills">
-                        <li class="front">
-                            <h3>FrontEnd:</h3>
-                            <hr>
-                            <h4>HTML, CSS, Javascript, Bootstrap, React, Redux, Python</h4>
-                        </li>
-                        <li class="back">
-                            <h3>BackEnd:</h3>
-                            <hr>
-                            <h4>PostgresSQL, DevOps, Flask, Django, CI/CD, SDLC</h4>
-                        </li>
-                        <li class="tools">
-                            <h3>Tools:</h3>
-                            <hr>
-                            <h4>GitHub, VS Code, Docker, Insomnia, AWS, Firebase/Firestone, Azure, Expo SDK</h4>
-                        </li>
-                    </ol>
-                </div>
-                <div class="tech-container">
-                    <ul class="tech-icons">
-                        <li style="margin:0px; padding: 0px;"><img src="./images/Postgresql_elephant.svg.png"
-                                alt="skill" style="height: 85px;width: auto;margin: 0.75rem;"></li>
-                        <li style="margin:0px; padding: 0px;"><img
-                                src="./images/docker-logo-CF97D0124B-seeklogo.com.png" alt="skill"
-                                style="height: 85px;width: auto;margin: 0.75rem;"></li>
-                        <li style="margin:0px; padding: 0px;"><img src="./images/2560px-Npm-logo.svg.png" alt="skill"
-                                style="height: 85px;width: auto;margin: 0.75rem;"></li>
-                        <li style="margin:0px; padding: 0px;"><img
-                                src="./images/javascript.081325c6f229605dce15142ddd948d6d.svg" alt=" skill"
-                                style="height: 85px;width: auto;margin: 0.75rem;"></li>
-                        <li style="margin:0px; padding: 0px;"><img
-                                src="./images/html5-without-wordmark-color-logo-14D252D878-seeklogo.com.png" alt="skill"
-                                style="height: 85px;width: auto;margin: 0.75rem;"></li>
-                        <li style="margin:0px; padding: 0px;"><img src="./images/CSS3_logo.svg.png" alt="skill"
-                                style="height: 85px;width: auto;margin: 0.75rem;"></li>
-                        <li style="margin:0px; padding: 0px;"><img src="./images/python-5-logo-png-transparent.png"
-                                alt="skill" style="height: 85px;width: auto;margin: 0.75rem;"></li>
-                        <li style="margin:0px; padding: 0px;"><img src="./images/redux-logo-9CA6836C12-seeklogo.com.png"
-                                alt="skill" style="height: 85px;width: auto;margin: 0.75rem;"></li>
-                        <li style="margin:0px; padding: 0px;"><img src="./images/Visual_Studio_Code_1.35_icon.svg.png"
-                                alt="skill" style="height: 85px;width: auto;margin: 0.75rem;"></li>
-                        <li style="margin:0px; padding: 0px;"><img src="./images/Bootstrap_logo.svg.png" alt="skill"
-                                style="height: 85px;width: auto;margin: 0.75rem;"></li>
-                        <li style="margin:0px; padding: 0px;"><img
-                                src="./images/insomnia-logo-A35E09EB19-seeklogo.com.png" alt=" skill"
-                                style="height: 85px;width: auto;margin: 0.75rem;"></li>
-                        <li style="margin:0px; padding: 0px;"><img src="./images/firebase-1-logo-png-transparent.png"
-                                alt="skill" style="height: 85px;width: auto;margin: 0.75rem;"></li>
-                    </ul>
+    <section class="tech" id="tech">
+        <div class="container mt-4">
+            <div class="row">
+                <h1>Technologies</h1>
+            </div>
+            <div class="row align-items-center mt-4">
+                <div class="col">
+                    <h2> I have experience working with a wide range of technologies and languages. I am always looking
+                        to
+                        learn new technologies and improve my skill.</h2>
+                    <div class="container">
+                        <ol class="skills">
+                            <li class="front">
+                                <h3>FrontEnd:</h3>
+                                <hr>
+                                <h4>HTML, CSS, Javascript, Bootstrap, React, Redux, Python</h4>
+                            </li>
+                            <li class="back">
+                                <h3>BackEnd:</h3>
+                                <hr>
+                                <h4>PostgresSQL, DevOps, Flask, Django, CI/CD, SDLC</h4>
+                            </li>
+                            <li class="tools">
+                                <h3>Tools:</h3>
+                                <hr>
+                                <h4>GitHub, VS Code, Docker, Insomnia, AWS, Firebase/Firestone, Azure, Expo SDK</h4>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="tech-container">
+                        <ul class="tech-icons">
+                            <li style="margin:0px; padding: 0px;"><img src="./images/Postgresql_elephant.svg.png"
+                                    alt="skill" style="height: 85px;width: auto;margin: 0.75rem;"></li>
+                            <li style="margin:0px; padding: 0px;"><img
+                                    src="./images/docker-logo-CF97D0124B-seeklogo.com.png" alt="skill"
+                                    style="height: 85px;width: auto;margin: 0.75rem;"></li>
+                            <li style="margin:0px; padding: 0px;"><img src="./images/2560px-Npm-logo.svg.png"
+                                    alt="skill" style="height: 85px;width: auto;margin: 0.75rem;"></li>
+                            <li style="margin:0px; padding: 0px;"><img
+                                    src="./images/javascript.081325c6f229605dce15142ddd948d6d.svg" alt=" skill"
+                                    style="height: 85px;width: auto;margin: 0.75rem;"></li>
+                            <li style="margin:0px; padding: 0px;"><img
+                                    src="./images/html5-without-wordmark-color-logo-14D252D878-seeklogo.com.png"
+                                    alt="skill" style="height: 85px;width: auto;margin: 0.75rem;"></li>
+                            <li style="margin:0px; padding: 0px;"><img src="./images/CSS3_logo.svg.png" alt="skill"
+                                    style="height: 85px;width: auto;margin: 0.75rem;"></li>
+                            <li style="margin:0px; padding: 0px;"><img src="./images/python-5-logo-png-transparent.png"
+                                    alt="skill" style="height: 85px;width: auto;margin: 0.75rem;"></li>
+                            <li style="margin:0px; padding: 0px;"><img
+                                    src="./images/redux-logo-9CA6836C12-seeklogo.com.png" alt="skill"
+                                    style="height: 85px;width: auto;margin: 0.75rem;"></li>
+                            <li style="margin:0px; padding: 0px;"><img
+                                    src="./images/Visual_Studio_Code_1.35_icon.svg.png" alt="skill"
+                                    style="height: 85px;width: auto;margin: 0.75rem;"></li>
+                            <li style="margin:0px; padding: 0px;"><img src="./images/Bootstrap_logo.svg.png" alt="skill"
+                                    style="height: 85px;width: auto;margin: 0.75rem;"></li>
+                            <li style="margin:0px; padding: 0px;"><img
+                                    src="./images/insomnia-logo-A35E09EB19-seeklogo.com.png" alt=" skill"
+                                    style="height: 85px;width: auto;margin: 0.75rem;"></li>
+                            <li style="margin:0px; padding: 0px;"><img
+                                    src="./images/firebase-1-logo-png-transparent.png" alt="skill"
+                                    style="height: 85px;width: auto;margin: 0.75rem;"></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!--Fifth Section-->
-    <div class="container mt4" id="contact">
-        <h1>Contact Me</h1>
-        <form class="container mt-5 rounded" method="post" onsubmit="sendEmail(); reset(); return false;">
-            <div class="form-group">
-                <label for="Name">Name</label>
-                <input id="name" type="text" class="form-control" placeholder="Full Name" required aria-required="true">
-            </div>
-            <div class="form-group">
-                <label for="Email">Email address</label>
-                <input id="email" type="email" class="form-control" placeholder="Email Address" required
-                    aria-required="true">
-            </div>
-            <div class="form-group">
-                <label for="Message">Message</label>
-                <textarea type="text" class="form-control" id="message" placeholder="Type your message here..." required
-                    aria-required="true"></textarea>
-            </div>
-            <div class="row justify-content-center">
-                <button type="submit" class="btn btn-color-4">Send Message</button>
-            </div>
-        </form>
-    </div>
+    <section class="contact" id="contact">
+        <div class="container mt4">
+            <h1>Contact Me</h1>
+            <form class="container mt-5 rounded" method="post" onsubmit="sendEmail(); reset(); return false;">
+                <div class="form-group">
+                    <label for="Name">Name</label>
+                    <input id="name" type="text" class="form-control" placeholder="Full Name" required
+                        aria-required="true">
+                </div>
+                <div class="form-group">
+                    <label for="Email">Email address</label>
+                    <input id="email" type="email" class="form-control" placeholder="Email Address" required
+                        aria-required="true">
+                </div>
+                <div class="form-group">
+                    <label for="Message">Message</label>
+                    <textarea type="text" class="form-control" id="message" placeholder="Type your message here..."
+                        required aria-required="true"></textarea>
+                </div>
+                <div class="row justify-content-center">
+                    <button type="submit" class="btn btn-color-4">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
     <script>
         function sendEmail() {
             Email.send({
