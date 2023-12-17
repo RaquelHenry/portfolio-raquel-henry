@@ -6,4 +6,8 @@
     #hamburger-nav {
         display: flex;
     }
+
+    .about-containers {
+        flex-wrap: wrap;
+    }
 }

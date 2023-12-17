@@ -188,7 +188,7 @@ a:hover {
 
 .btn-color-1,
 .btn-color-2,
-.btn-color-3,
+.GitHub-btn,
 .btn-color-4 {
     background: rgb(34, 34, 59);
     border: rgb(74, 78, 105) solid;
@@ -197,7 +197,7 @@ a:hover {
 
 .btn-color-1:hover,
 .btn-color-2:hover,
-.btn-color-3:hover,
+.GitHub-btn:hover,
 .btn-color-4:hover {
     background-color: rgb(74, 78, 105);
     border-color: rgb(34, 34, 59);
@@ -209,44 +209,57 @@ a:hover {
 }
 
 
+
+
 /*Project Section*/
 
-.details-container {
+.project-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    gap: 2.3rem;
+    margin-top: 4.2rem;
+    justify-content: center;
+}
+
+.box {
+    padding: 80px 40px 66px;
+    background: rgb(154, 140, 152);
+    border-radius: 28px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px rgb(74, 78, 105);
+    transition: all .50s ease;
+    cursor: pointer;
+    margin: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.box img {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+}
+
+.GitHub-btn {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    margin: 2rem;
-    border-radius: 4rem;
+    gap: 1rem;
+    border-radius: 28px;
+}
+
+/*.color-container {
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     background: rgb(154, 140, 152);
+    border-radius: 4rem;
+    margin: 2rem;
     padding: 3rem;
-
-}
-
-.article-container {
-    display: flex;
-    text-align: initial;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2.5rem;
     justify-content: center;
+}*/
 
-}
-
-.project-img {
-    border-radius: 2rem;
-    width: 90%;
-    height: 90%;
-    padding: 1rem;
-    margin-left: 1.6rem;
-}
-
-.project-title {
-    margin: 1rem;
-    color: black;
-    justify-content: center;
-}
 
 /*Technologies Section*/
 
@@ -274,6 +287,7 @@ form {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
-    max-width: 500px;
+    max-width: 400px;
     background-color: rgb(154, 140, 152);
+    border-radius: 20px;
 }
