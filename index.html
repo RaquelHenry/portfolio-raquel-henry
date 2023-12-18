@@ -196,77 +196,39 @@
 
     <!--Fifth Section-->
     <section class="contact" id="contact">
-        <div class="container mt4">
+        <div class="contact-container">
             <h1>Contact Me</h1>
-            <form class="container mt-5 rounded" method="post" onsubmit="sendEmail(); reset(); return false;">
-                <div class="form-group">
-                    <label for="Name">Name</label>
-                    <input id="name" type="text" class="form-control" placeholder="Full Name" required
-                        aria-required="true">
-                </div>
-                <div class="form-group">
-                    <label for="Email">Email address</label>
-                    <input id="email" type="email" class="form-control" placeholder="Email Address" required
-                        aria-required="true">
-                </div>
-                <div class="form-group">
-                    <label for="Message">Message</label>
-                    <textarea type="text" class="form-control" id="message" placeholder="Type your message here..."
-                        required aria-required="true"></textarea>
-                </div>
-                <div class="row justify-content-center">
-                    <button type="submit" class="btn btn-color-4">Send Message</button>
-                </div>
-            </form>
+            <h3>Email: raquel.elysia.r@gmail.com</h3>
         </div>
-    </section>
-
-    <script>
-        function sendEmail() {
-            Email.send({
-                Host: "smtp.gmail.com",
-                Username: "raquel.elysia.r@gmail.com",
-                Password: "Psalm34:18",
-                To: 'raquel.elysia.r@gmail.com',
-                From: document.getElementById('email').value,
-                Subject: "New Contact Form Enquiry",
-                Body: "Name: " + document.getElementById('name').value
-                    + "<br> Email: " + document.getElementById('email').value
-                    + "<br> Message: " + document.getElementById('message').value
-            }).then(
-                message => alert("Thank you for reaching out! I will be in touch with you soon!")
-            );
-        }
-    </script>
 
 
-    <!--Footer Info-->
-    <footer class="sitefooter">
-        <div class="text-center text-light mt-5 d-flex justify-content-center col-md-12">
-            <div class="row mb-5">
-                <div class="socialIcons">
-                    <a href="https://github.com/RaquelHenry"><i class="fab fa-github fa-3x"></i></a>
-                    <a href="https://www.linkedin.com/in/raquel-henry-343a82a5/"><i
-                            class="fab fa-linkedin fa-3x"></i></a>
-                    <a href="https://www.facebook.com/raquel.elysia/"><i class="fab fa-facebook fa-3x"></i></a>
+        <!--Footer Info-->
+        <footer class="sitefooter">
+            <div class="text-center text-light mt-5 d-flex justify-content-center col-md-12">
+                <div class="row mb-5">
+                    <div class="socialIcons">
+                        <a href="https://github.com/RaquelHenry"><i class="fab fa-github fa-3x"></i></a>
+                        <a href="https://www.linkedin.com/in/raquel-henry-343a82a5/"><i
+                                class="fab fa-linkedin fa-3x"></i></a>
+                        <a href="https://www.facebook.com/raquel.elysia/"><i class="fab fa-facebook fa-3x"></i></a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
-    <!-- Bootstrap JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
-        integrity="sha384-rnHgtmbI0OIua00K0kcpXHuy7JTbZEn9t5tFRwqDDp/FxoReB/j3I79GJj5lqDSh"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-fGNr0opJQFepjw2+X6pjs8laJ2T7mqeR6/Qs+XtlYUAu5SkqlzY1l70iP00fXlPk"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-f3HtgzLu4K2kl8jLqrs+o5AqF/R/J6bV10GIbc7IBNBfB9d3WqIFd0heWEwHQ8Rb"
-        crossorigin="anonymous"></script>
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
-    <script src="portfolio.js"></script>
+        <!-- Bootstrap JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+            integrity="sha384-rnHgtmbI0OIua00K0kcpXHuy7JTbZEn9t5tFRwqDDp/FxoReB/j3I79GJj5lqDSh"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-fGNr0opJQFepjw2+X6pjs8laJ2T7mqeR6/Qs+XtlYUAu5SkqlzY1l70iP00fXlPk"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-f3HtgzLu4K2kl8jLqrs+o5AqF/R/J6bV10GIbc7IBNBfB9d3WqIFd0heWEwHQ8Rb"
+            crossorigin="anonymous"></script>
+        <script src="https://smtpjs.com/v3/smtp.js">
+        </script>
+        <script src="portfolio.js"></script>
 </body>
 
 </html>

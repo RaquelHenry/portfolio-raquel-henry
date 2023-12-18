@@ -47,6 +47,7 @@ h2 {
 
 h3 {
     font-size: 30px;
+    align-items: center;
 }
 
 h4 {
@@ -243,12 +244,7 @@ a:hover {
     align-items: center;
 }
 
-.GitHub-btn {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    border-radius: 28px;
-}
+
 
 /*.color-container {
     border: rgb(53, 53, 53) 0.1rem solid;
@@ -283,11 +279,8 @@ a:hover {
 }
 
 /*Contact Me*/
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-    max-width: 400px;
-    background-color: rgb(154, 140, 152);
-    border-radius: 20px;
+.contact-container {}
+
+.contact-container h3 {
+    text-align: center;
 }
