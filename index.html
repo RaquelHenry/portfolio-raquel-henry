@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+
+    <!-- Font Awesome CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+    <title>Portfolio - Raquel Henry</title>
+</head>
+
+<body>
+
+    <!--Title and Navigation Items-->
+    <nav id="desktop-nav">
+        <div class="profile-pic">
+            <img src="./images/Profile Pic-PhotoRoom.png" alt="Raquel's Profile Picture" />
+        </div>
+        <ul class="navlink">
+            <li><a href="#home" class="active">Portfolio</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#tech">Technologies</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="profile-pic">
+            <img src="./images/Profile Pic-PhotoRoom.png" alt="Raquel's Profile Picture" />
+        </div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#home" class="active" onclick="toggleMenu()">Portfolio</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#tech" onclick="toggleMenu()">Technologies</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact Me</a></li>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--First Section-->
+    <section class="home" id="home">
+        <div class="container text-center mt-4">
+            <div class="row">
+                <h1>Hi, I'm Raquel, welcome to my portfolio! </h1>
+            </div>
+            <div class="row align-items-start mt-4">
+                <div class="col">
+                    <h2> I'm Raquel, software developer with a background in business management and supply chain.
+                        Below,
+                        you
+                        will see my projects and skills. Feel free to reach out if you are interested in my diverse
+                        background.
+                    </h2>
+                    <div class="btn btn-color-1" onclick="location.href='#contact'">let's connect!</div>
+                </div>
+            </div>
+        </div>
+        <hr class="solid">
+    </section>
+
+
+
+    <!--Second Section-->
+    <section class="about" id="about">
+        <div class="container mt-4">
+            <div class="row">
+                <h1>About Me </h1>
+            </div>
+            <div class="row align-items-center mt-4">
+                <div class="col">
+                    <h2>Fullstack Developer with a passion to create solutions and craft clean and efficient code. I am
+                        always seeking opportunities to developing new skills and honing my existing ones. I am a firm
+                        believer in the power of teamwork and collaboration. Inclusion is a part of who I am.</h2>
+                    <div class="row justify-content-center">
+                        <div class="btn btn-color-2" onclick="window.open('./documents/resume.pdf')">Resume</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="solid">
+    </section>
+
+
+    <!--Third Section-->
+
+    <section class="projects" id="projects">
+        <h1>Projects</h1>
+        <div class="project-content">
+            <div class="box">
+                <img src="images/IMG_0865.PNG">
+                <h2>Nucamp Rental Website</h2>
+                <div class="btn GitHub-btn" onclick="location.href='https://github.com/RaquelHenry/nucampsitereact'">
+                    GitHub</div>
+            </div>
+
+            <div class="box">
+                <img src="images/Screenshot 2023-12-17 at 5.23.06 PM.png">
+                <h2>Food Trivia w/Python</h2>
+                <div class="btn GitHub-btn" onclick="location.href='https://github.com/RaquelHenry/python-projects'">
+                    GitHub</div>
+            </div>
+        </div>
+
+    </section>
+
+    <hr class="solid">
+
+    <!--Fourth Section-->
+    <section class="tech" id="tech">
+        <div class="container mt-4">
+            <div class="row">
+                <h1>Technologies</h1>
+            </div>
+            <div class="row align-items-center mt-4">
+                <div class="col">
+                    <h2> I have experience working with a wide range of technologies and languages. I am always looking
+                        to
+                        learn new technologies and improve my skill.</h2>
+                    <div class="container">
+                        <ol class="skills">
+                            <li class="front">
+                                <h3>FrontEnd:</h3>
+                                <hr>
+                                <h4>HTML, CSS, Javascript, Bootstrap, React, Redux, Python</h4>
+                            </li>
+                            <li class="back">
+                                <h3>BackEnd:</h3>
+                                <hr>
+                                <h4>PostgresSQL, DevOps, Flask, Django, CI/CD, SDLC</h4>
+                            </li>
+                            <li class="tools">
+                                <h3>Tools:</h3>
+                                <hr>
+                                <h4>GitHub, VS Code, Docker, Insomnia, AWS, Firebase/Firestone, Azure, Expo SDK</h4>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="tech-container">
+                        <ul class="tech-icons">
+                            <li style="margin:0px; padding: 0px;"><img src="./images/Postgresql_elephant.svg.png"
+                                    alt="skill" style="height: 85px;width: auto;margin: 0.75rem;"></li>
+                            <li style="margin:0px; padding: 0px;"><img
+                                    src="./images/docker-logo-CF97D0124B-seeklogo.com.png" alt="skill"
+                                    style="height: 85px;width: auto;margin: 0.75rem;"></li>
+                            <li style="margin:0px; padding: 0px;"><img src="./images/2560px-Npm-logo.svg.png"
+                                    alt="skill" style="height: 85px;width: auto;margin: 0.75rem;"></li>
+                            <li style="margin:0px; padding: 0px;"><img
+                                    src="./images/javascript.081325c6f229605dce15142ddd948d6d.svg" alt=" skill"
+                                    style="height: 85px;width: auto;margin: 0.75rem;"></li>
+                            <li style="margin:0px; padding: 0px;"><img
+                                    src="./images/html5-without-wordmark-color-logo-14D252D878-seeklogo.com.png"
+                                    alt="skill" style="height: 85px;width: auto;margin: 0.75rem;"></li>
+                            <li style="margin:0px; padding: 0px;"><img src="./images/CSS3_logo.svg.png" alt="skill"
+                                    style="height: 85px;width: auto;margin: 0.75rem;"></li>
+                            <li style="margin:0px; padding: 0px;"><img src="./images/python-5-logo-png-transparent.png"
+                                    alt="skill" style="height: 85px;width: auto;margin: 0.75rem;"></li>
+                            <li style="margin:0px; padding: 0px;"><img
+                                    src="./images/redux-logo-9CA6836C12-seeklogo.com.png" alt="skill"
+                                    style="height: 85px;width: auto;margin: 0.75rem;"></li>
+                            <li style="margin:0px; padding: 0px;"><img
+                                    src="./images/Visual_Studio_Code_1.35_icon.svg.png" alt="skill"
+                                    style="height: 85px;width: auto;margin: 0.75rem;"></li>
+                            <li style="margin:0px; padding: 0px;"><img src="./images/Bootstrap_logo.svg.png" alt="skill"
+                                    style="height: 85px;width: auto;margin: 0.75rem;"></li>
+                            <li style="margin:0px; padding: 0px;"><img
+                                    src="./images/insomnia-logo-A35E09EB19-seeklogo.com.png" alt=" skill"
+                                    style="height: 85px;width: auto;margin: 0.75rem;"></li>
+                            <li style="margin:0px; padding: 0px;"><img
+                                    src="./images/firebase-1-logo-png-transparent.png" alt="skill"
+                                    style="height: 85px;width: auto;margin: 0.75rem;"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Fifth Section-->
+    <section class="contact" id="contact">
+        <div class="container mt4">
+            <h1>Contact Me</h1>
+            <form class="container mt-5 rounded" method="post" onsubmit="sendEmail(); reset(); return false;">
+                <div class="form-group">
+                    <label for="Name">Name</label>
+                    <input id="name" type="text" class="form-control" placeholder="Full Name" required
+                        aria-required="true">
+                </div>
+                <div class="form-group">
+                    <label for="Email">Email address</label>
+                    <input id="email" type="email" class="form-control" placeholder="Email Address" required
+                        aria-required="true">
+                </div>
+                <div class="form-group">
+                    <label for="Message">Message</label>
+                    <textarea type="text" class="form-control" id="message" placeholder="Type your message here..."
+                        required aria-required="true"></textarea>
+                </div>
+                <div class="row justify-content-center">
+                    <button type="submit" class="btn btn-color-4">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "raquel.elysia.r@gmail.com",
+                Password: "Psalm34:18",
+                To: 'raquel.elysia.r@gmail.com',
+                From: document.getElementById('email').value,
+                Subject: "New Contact Form Enquiry",
+                Body: "Name: " + document.getElementById('name').value
+                    + "<br> Email: " + document.getElementById('email').value
+                    + "<br> Message: " + document.getElementById('message').value
+            }).then(
+                message => alert("Thank you for reaching out! I will be in touch with you soon!")
+            );
+        }
+    </script>
+
+
+    <!--Footer Info-->
+    <footer class="sitefooter">
+        <div class="text-center text-light mt-5 d-flex justify-content-center col-md-12">
+            <div class="row mb-5">
+                <div class="socialIcons">
+                    <a href="https://github.com/RaquelHenry"><i class="fab fa-github fa-3x"></i></a>
+                    <a href="https://www.linkedin.com/in/raquel-henry-343a82a5/"><i
+                            class="fab fa-linkedin fa-3x"></i></a>
+                    <a href="https://www.facebook.com/raquel.elysia/"><i class="fab fa-facebook fa-3x"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha384-rnHgtmbI0OIua00K0kcpXHuy7JTbZEn9t5tFRwqDDp/FxoReB/j3I79GJj5lqDSh"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-fGNr0opJQFepjw2+X6pjs8laJ2T7mqeR6/Qs+XtlYUAu5SkqlzY1l70iP00fXlPk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-f3HtgzLu4K2kl8jLqrs+o5AqF/R/J6bV10GIbc7IBNBfB9d3WqIFd0heWEwHQ8Rb"
+        crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
